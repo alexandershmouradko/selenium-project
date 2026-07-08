@@ -3,7 +3,7 @@
 ## Getting started
 
 * docker compose up -d jenkins (start container)
-* (optional) docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword (852b661acf954ea3bda264ed7cdfb799)
+* (optional) docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword (4b9934a1bbdc4768b8b81652c7d44605)
 * docker compose rm -f jenkins (remove container)
 * docker compose stop (stop container)
 * docker ps (check containers)
