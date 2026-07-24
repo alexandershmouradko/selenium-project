@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.acn.ndc",
+    "module": "cf-har-utils",
+    "version": "3.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.acn.ndc",
+          "module": "cf-common-utils",
+          "version": {
+            "requires": "3.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.acn.ndc",
+          "module": "cf-selenium-utils",
+          "version": {
+            "requires": "3.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.44.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cf-har-utils-3.0.0-SNAPSHOT.jar",
+          "url": "cf-har-utils-3.0.0-SNAPSHOT.jar",
+          "size": 3346,
+          "sha512": "4fd40bb1e798b3aa832f44d53bf2d2c9bc0df9db1017d7410ba75eb925e2f823ee185b6717e4da85fad1acb0b6c787438a5cf6c211088dea0aac76187f1aa32d",
+          "sha256": "20510b30971680ff27c987fb9c8d3f7d30697a09eb199557df7ba6ec43d733fd",
+          "sha1": "d67f865f9aabfaefa3789fed1e612bfa47feca3b",
+          "md5": "c0d38c5257b9f6f909757fcbe4574b4b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.acn.ndc",
+          "module": "cf-common-utils",
+          "version": {
+            "requires": "3.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.acn.ndc",
+          "module": "cf-selenium-utils",
+          "version": {
+            "requires": "3.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.44.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cf-har-utils-3.0.0-SNAPSHOT.jar",
+          "url": "cf-har-utils-3.0.0-SNAPSHOT.jar",
+          "size": 3346,
+          "sha512": "4fd40bb1e798b3aa832f44d53bf2d2c9bc0df9db1017d7410ba75eb925e2f823ee185b6717e4da85fad1acb0b6c787438a5cf6c211088dea0aac76187f1aa32d",
+          "sha256": "20510b30971680ff27c987fb9c8d3f7d30697a09eb199557df7ba6ec43d733fd",
+          "sha1": "d67f865f9aabfaefa3789fed1e612bfa47feca3b",
+          "md5": "c0d38c5257b9f6f909757fcbe4574b4b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cf-har-utils-3.0.0-SNAPSHOT-sources.jar",
+          "url": "cf-har-utils-3.0.0-SNAPSHOT-sources.jar",
+          "size": 1904,
+          "sha512": "ad1f28d22a3ec04d4a8153c751961ab3e28cfe9e02776b1926e21f0dd074d75f90f8e8953377716199d7aef984d8563858d414ff02fec42cbdab7f6d2be93623",
+          "sha256": "627c0a02a3bde804a8d3c211ed777ca7639b88850535ec0c356743dcd75e0337",
+          "sha1": "0bb1f2e4b91d2bfe6451e3b9c1d1680a5baebec8",
+          "md5": "348fe05d713b1f067a5511d83fb20e44"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cf-har-utils-3.0.0-SNAPSHOT-javadoc.jar",
+          "url": "cf-har-utils-3.0.0-SNAPSHOT-javadoc.jar",
+          "size": 4146657,
+          "sha512": "2f903d254c4643f3c0ef1d57dfa28856dda80bd0ca10a47c80096fb6d248bfe710ad684a4de6d1faaf6c48592580266c0fd8e96ad1191a72af2466f22070f5d5",
+          "sha256": "6dfc5528695f0955be57efa3cfc39dea31b7a3ddf7f8c6646ab11d19c97ca2bd",
+          "sha1": "4c5108a964d5bc866bed4b922f73e56310a16688",
+          "md5": "872caefafe0d05f1909c9c5975168349"
+        }
+      ]
+    }
+  ]
+}

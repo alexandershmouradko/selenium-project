@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-extension-autoconfigure",
+    "version": "1.62.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk",
+          "version": {
+            "requires": "1.62.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-extension-autoconfigure-spi",
+          "version": {
+            "requires": "1.62.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-extension-autoconfigure-1.62.0.jar",
+          "url": "opentelemetry-sdk-extension-autoconfigure-1.62.0.jar",
+          "size": 50091,
+          "sha512": "562f92adc07c57157fdfbcc027f214a93fc65ad669c18082a1891c8bcce3a3011c48fe4cf3eb93873f24240550585c99a87723cf01dd18150816d62ad7f677fb",
+          "sha256": "4165984bdc3261486918a55815ae57d5e75ba08730d1e1ccf97908720659b619",
+          "sha1": "302abf92628ded497d03218ccf9c652887a7da86",
+          "md5": "7db9d08110ba2d58b85dd4390eb5e943"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk",
+          "version": {
+            "requires": "1.62.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-extension-autoconfigure-spi",
+          "version": {
+            "requires": "1.62.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-extension-autoconfigure-1.62.0.jar",
+          "url": "opentelemetry-sdk-extension-autoconfigure-1.62.0.jar",
+          "size": 50091,
+          "sha512": "562f92adc07c57157fdfbcc027f214a93fc65ad669c18082a1891c8bcce3a3011c48fe4cf3eb93873f24240550585c99a87723cf01dd18150816d62ad7f677fb",
+          "sha256": "4165984bdc3261486918a55815ae57d5e75ba08730d1e1ccf97908720659b619",
+          "sha1": "302abf92628ded497d03218ccf9c652887a7da86",
+          "md5": "7db9d08110ba2d58b85dd4390eb5e943"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-extension-autoconfigure-1.62.0-javadoc.jar",
+          "url": "opentelemetry-sdk-extension-autoconfigure-1.62.0-javadoc.jar",
+          "size": 105453,
+          "sha512": "5d92692b068efbb656ea12eb22c185645f0e40be9cc29b96f51bfeb411210bfbafd3bfa8e43d1a7874903de53271226e5399dafa8e2a3e7a8255ee0a95b4bb4d",
+          "sha256": "e72705725e233e10a725b8eb46e76981873c2af49cd3e305708c117d6f241a74",
+          "sha1": "0ddbeb7abc4a68e1432af18dbb5c919608643a43",
+          "md5": "237c79f8c9f5fd5c89ff3485fe3d462f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-extension-autoconfigure-1.62.0-sources.jar",
+          "url": "opentelemetry-sdk-extension-autoconfigure-1.62.0-sources.jar",
+          "size": 27459,
+          "sha512": "932dd7a0b1fdc6306b5861da0c7304938929de7e8de6155b8804ef4353f2898c16b9ec915959a4f7cb1749019959e3b4767a285d0310bd344a24c35bfbf9a7fe",
+          "sha256": "1160b8a0cf56e9012d103ea5f32fdfc15970a623addd460ff43a6a4961c831a7",
+          "sha1": "e7a48389e83c641d27b6b611e3a0d031a4bda3dc",
+          "md5": "52700ff56dc5b2b4b13779696a1dd6e3"
+        }
+      ]
+    }
+  ]
+}

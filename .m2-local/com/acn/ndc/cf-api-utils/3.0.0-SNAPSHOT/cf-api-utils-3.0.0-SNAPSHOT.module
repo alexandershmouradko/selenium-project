@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.acn.ndc",
+    "module": "cf-api-utils",
+    "version": "3.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.acn.ndc",
+          "module": "cf-common-utils",
+          "version": {
+            "requires": "3.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rest-assured",
+          "module": "rest-assured",
+          "version": {
+            "requires": "5.5.7"
+          }
+        },
+        {
+          "group": "io.rest-assured",
+          "module": "json-schema-validator",
+          "version": {
+            "requires": "5.5.7"
+          }
+        },
+        {
+          "group": "com.atlassian.oai",
+          "module": "openapi-request-validator-restassured",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.skyscreamer",
+          "module": "jsonassert",
+          "version": {
+            "requires": "1.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cf-api-utils-3.0.0-SNAPSHOT.jar",
+          "url": "cf-api-utils-3.0.0-SNAPSHOT.jar",
+          "size": 18092,
+          "sha512": "3f696dc091b651f4fe6179229a60a96affc7b54c989d4f8acc3dd82990dfaeb0409a4e115e10bdf221400e2b6a9ce1e11b0b6e37e74d307bd51a25f149f98fbf",
+          "sha256": "2ca9a6b1fda4b6f972fe865abac5d0343ecf5d79464041e65b9d41a295c817a9",
+          "sha1": "98b3ae07d30309f3cb6de20ed341ca346d76e3d9",
+          "md5": "c6825f5be4a6de53adc3434a0b246f8d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.acn.ndc",
+          "module": "cf-common-utils",
+          "version": {
+            "requires": "3.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.rest-assured",
+          "module": "rest-assured",
+          "version": {
+            "requires": "5.5.7"
+          }
+        },
+        {
+          "group": "io.rest-assured",
+          "module": "json-schema-validator",
+          "version": {
+            "requires": "5.5.7"
+          }
+        },
+        {
+          "group": "com.atlassian.oai",
+          "module": "openapi-request-validator-restassured",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "org.skyscreamer",
+          "module": "jsonassert",
+          "version": {
+            "requires": "1.5.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cf-api-utils-3.0.0-SNAPSHOT.jar",
+          "url": "cf-api-utils-3.0.0-SNAPSHOT.jar",
+          "size": 18092,
+          "sha512": "3f696dc091b651f4fe6179229a60a96affc7b54c989d4f8acc3dd82990dfaeb0409a4e115e10bdf221400e2b6a9ce1e11b0b6e37e74d307bd51a25f149f98fbf",
+          "sha256": "2ca9a6b1fda4b6f972fe865abac5d0343ecf5d79464041e65b9d41a295c817a9",
+          "sha1": "98b3ae07d30309f3cb6de20ed341ca346d76e3d9",
+          "md5": "c6825f5be4a6de53adc3434a0b246f8d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cf-api-utils-3.0.0-SNAPSHOT-sources.jar",
+          "url": "cf-api-utils-3.0.0-SNAPSHOT-sources.jar",
+          "size": 8831,
+          "sha512": "bd3dddb41b81302f201aed356ff20a949cded3b68471a7107f5fa13637f8c1d59a2aa6af913b2be17b1016e3ff9272b054e0d7cb2ff4fd35339a424a73d068f0",
+          "sha256": "2f071d4e750709fc4156041610c236f898da1d49fe408491846403f5583479fa",
+          "sha1": "2b07d9b71b560bb0780a042bdd47bf35c5bccf40",
+          "md5": "95849bd6d1f71f947df04728975484a2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cf-api-utils-3.0.0-SNAPSHOT-javadoc.jar",
+          "url": "cf-api-utils-3.0.0-SNAPSHOT-javadoc.jar",
+          "size": 4167522,
+          "sha512": "d44c176f18b9b81442b38d4ef24bbc2bc7450ca403c3202be9885fce509448f345046a5002f4ee08211a5699915a0da8f4c60ffe7c8ce576e2ff57a42148cafa",
+          "sha256": "2fdf1d48489fb08949f1ade6c61f03c469e6fe7f3d2d0630f0937e568716d9bd",
+          "sha1": "fb96f18f683b135254fc2f0957ff376bc0d9c902",
+          "md5": "8a3196dad895cb57cbf2c9497bc45b44"
+        }
+      ]
+    }
+  ]
+}

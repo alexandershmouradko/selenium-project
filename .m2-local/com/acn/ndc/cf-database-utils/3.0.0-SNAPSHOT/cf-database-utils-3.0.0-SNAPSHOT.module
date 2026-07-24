@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.acn.ndc",
+    "module": "cf-database-utils",
+    "version": "3.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.acn.ndc",
+          "module": "cf-common-utils",
+          "version": {
+            "requires": "3.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "commons-dbutils",
+          "module": "commons-dbutils",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-sync",
+          "version": {
+            "requires": "5.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cf-database-utils-3.0.0-SNAPSHOT.jar",
+          "url": "cf-database-utils-3.0.0-SNAPSHOT.jar",
+          "size": 10724,
+          "sha512": "d9b8ff2b85604dcdd3e3ab5c6bb3af5928d62991aad01afc6b8783b42f34c5c59bf7bbff9d329e8e221c6aae80e363d9b62ed8e5f4fd58cdfaf2ac169f434682",
+          "sha256": "ae68db63936215b8f63c3093bc27da8d032d15395ac4229e7fc4816851e17b9e",
+          "sha1": "3b780559e5982c1a334eb238d3038bb865e68640",
+          "md5": "1b3ba5d9fb05bca8ea418558182b1eca"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.acn.ndc",
+          "module": "cf-common-utils",
+          "version": {
+            "requires": "3.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "commons-dbutils",
+          "module": "commons-dbutils",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongodb-driver-sync",
+          "version": {
+            "requires": "5.5.1"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "com.microsoft.sqlserver",
+          "module": "mssql-jdbc",
+          "version": {
+            "requires": "12.10.2.jre11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cf-database-utils-3.0.0-SNAPSHOT.jar",
+          "url": "cf-database-utils-3.0.0-SNAPSHOT.jar",
+          "size": 10724,
+          "sha512": "d9b8ff2b85604dcdd3e3ab5c6bb3af5928d62991aad01afc6b8783b42f34c5c59bf7bbff9d329e8e221c6aae80e363d9b62ed8e5f4fd58cdfaf2ac169f434682",
+          "sha256": "ae68db63936215b8f63c3093bc27da8d032d15395ac4229e7fc4816851e17b9e",
+          "sha1": "3b780559e5982c1a334eb238d3038bb865e68640",
+          "md5": "1b3ba5d9fb05bca8ea418558182b1eca"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cf-database-utils-3.0.0-SNAPSHOT-sources.jar",
+          "url": "cf-database-utils-3.0.0-SNAPSHOT-sources.jar",
+          "size": 4515,
+          "sha512": "73fb50e0fbe4133bbae407c47c2253e44371d3ebd8f28eb198fbec9fd46260d050d571c774cf438306c40ee4904069469e0bee89b333c58f55f677a940378094",
+          "sha256": "2877598ef09a85af35563e32b2bebd4f687f833fc25aa586ac0b5f4b3d87b632",
+          "sha1": "634d985af1653472ae3c5d6393849df239488824",
+          "md5": "122d59a787c46bafd5b2e2c31cf466ab"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cf-database-utils-3.0.0-SNAPSHOT-javadoc.jar",
+          "url": "cf-database-utils-3.0.0-SNAPSHOT-javadoc.jar",
+          "size": 4161219,
+          "sha512": "b40136a63043c2337be93d26e150ccd091f2f5fc3524c705cce4c5e9a9b419bf36fa85e4408d416446cc178fd740340a6642993579437ea02ce01b420c525bd8",
+          "sha256": "71cb4ba7b9a2f1d8e43df5659bf2daea50c0a175c99e84c249d277fa2106944d",
+          "sha1": "8e0c771849388e84526d2882b3e50b343ffb3f2a",
+          "md5": "20f501407dc7018c4fa687dda05d4056"
+        }
+      ]
+    }
+  ]
+}

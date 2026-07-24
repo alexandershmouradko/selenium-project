@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-logs",
+    "version": "1.62.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.62.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-common",
+          "version": {
+            "requires": "1.62.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.62.0.jar",
+          "url": "opentelemetry-sdk-logs-1.62.0.jar",
+          "size": 79362,
+          "sha512": "85d1360cdfc694989e554c5f5a00f30d0acc78cb7e31c216376cbe83c0d321d4d623db613145a8fc31cd42c37b8b4a7e50d9fd16fcda651f230e78c5aefc5362",
+          "sha256": "51c94329bc8e335ed79027d29d49c075c11b91b39e48679edf590e784a392406",
+          "sha1": "f242422084100da0bd3a5f6f2bcf364aaf4d2c53",
+          "md5": "5a7a1fbfce1916cc0c016bb938620cfb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.62.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-common",
+          "version": {
+            "requires": "1.62.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.62.0.jar",
+          "url": "opentelemetry-sdk-logs-1.62.0.jar",
+          "size": 79362,
+          "sha512": "85d1360cdfc694989e554c5f5a00f30d0acc78cb7e31c216376cbe83c0d321d4d623db613145a8fc31cd42c37b8b4a7e50d9fd16fcda651f230e78c5aefc5362",
+          "sha256": "51c94329bc8e335ed79027d29d49c075c11b91b39e48679edf590e784a392406",
+          "sha1": "f242422084100da0bd3a5f6f2bcf364aaf4d2c53",
+          "md5": "5a7a1fbfce1916cc0c016bb938620cfb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.62.0-javadoc.jar",
+          "url": "opentelemetry-sdk-logs-1.62.0-javadoc.jar",
+          "size": 152775,
+          "sha512": "09480c207977ce28efbf324293d30068f276dba565cd81453aa13d9aa2dec17fcc106f4fbd40ec7945745152d19cbd2c45ffc5fe70ef45240a7e02939194ddfe",
+          "sha256": "4408d33c3b3b16298a320744cb2e406a9a5457b3138c45732352c8804daecc0e",
+          "sha1": "7820044ca9e24aee3350ba5b4cfc532a674833a8",
+          "md5": "36e5d02081b12dba90516f36470f4908"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-logs-1.62.0-sources.jar",
+          "url": "opentelemetry-sdk-logs-1.62.0-sources.jar",
+          "size": 46263,
+          "sha512": "9724398cd7428faad839d24ee202073a4b538307e32d09ee7b6e0034864640627e99540fe8a8df519ff2e04fda4a1fbc9d39e9a06661d10890d006e08669a64b",
+          "sha256": "166487b88e6a7b9e148a2b1dcf2b6c7ecf08211e738c53c3d3e5e0da148320b1",
+          "sha1": "419517ef17a79282a186ad3909a67d7a02e73137",
+          "md5": "7f8983daff29fbd3573c01931ab8da2e"
+        }
+      ]
+    }
+  ]
+}

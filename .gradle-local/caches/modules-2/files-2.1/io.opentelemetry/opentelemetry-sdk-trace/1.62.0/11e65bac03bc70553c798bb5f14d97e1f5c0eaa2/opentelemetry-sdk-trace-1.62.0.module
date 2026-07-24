@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-trace",
+    "version": "1.62.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.62.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-common",
+          "version": {
+            "requires": "1.62.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-trace-1.62.0.jar",
+          "url": "opentelemetry-sdk-trace-1.62.0.jar",
+          "size": 145227,
+          "sha512": "abdd3e3670297d3aab76ea2f6e23732db17177bd38298151a0ee831a12f38e048246ff1e9178bcda81caf6c13b4343cc4bfa923e11fcc78517a5eabb6ee6b637",
+          "sha256": "fb6c0953b229a6da1db813135ae11a621bf9da56b7356c1e93049ed4b088c232",
+          "sha1": "7a337d2f887b151d27e734d1c221eb51b1c5b734",
+          "md5": "e87149bd2dfc2f88307459a4bb916c0e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.62.0"
+          }
+        },
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-sdk-common",
+          "version": {
+            "requires": "1.62.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-trace-1.62.0.jar",
+          "url": "opentelemetry-sdk-trace-1.62.0.jar",
+          "size": 145227,
+          "sha512": "abdd3e3670297d3aab76ea2f6e23732db17177bd38298151a0ee831a12f38e048246ff1e9178bcda81caf6c13b4343cc4bfa923e11fcc78517a5eabb6ee6b637",
+          "sha256": "fb6c0953b229a6da1db813135ae11a621bf9da56b7356c1e93049ed4b088c232",
+          "sha1": "7a337d2f887b151d27e734d1c221eb51b1c5b734",
+          "md5": "e87149bd2dfc2f88307459a4bb916c0e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-trace-1.62.0-javadoc.jar",
+          "url": "opentelemetry-sdk-trace-1.62.0-javadoc.jar",
+          "size": 195569,
+          "sha512": "7c583dfe7e209dbb78f23ab1baa46ca49bbc516bcd6f03784ace015d1b18770e89008373a7aa3540fda200bf29107e0efb2b563e54e2a34b09c7a5772265b7a2",
+          "sha256": "f39f2c5e88f6a0f0d484dbdfd40a72ac420981e73992eeda2d420eb6fa5e7d21",
+          "sha1": "1a05bc4c333639139000cc50d1e9e7878afbab0c",
+          "md5": "48965e061e1e7b6e49b72ff67cda4587"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-trace-1.62.0-sources.jar",
+          "url": "opentelemetry-sdk-trace-1.62.0-sources.jar",
+          "size": 70806,
+          "sha512": "9a40af7d94782c8ecd314486e8dc15be6717ea0cfe518b49137de4ab094b3ec1f7d043439d60a413f31e11c51f08309c8371c3d4aa67e3ca459b9d092f83282d",
+          "sha256": "4fef31d6c890aff3de5a9d506a4a9dd4a52b0531d7c6bce42cc71099b9dd90a4",
+          "sha1": "5f726089fe16ff18d96e527fddd6cddd5d78f2bb",
+          "md5": "e6d3fdc2d3742e9015a2dea47d51decd"
+        }
+      ]
+    }
+  ]
+}

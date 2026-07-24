@@ -1,0 +1,297 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.acn.ndc",
+    "module": "cf-common-utils",
+    "version": "3.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.cucumber",
+          "module": "cucumber-bom",
+          "version": {
+            "requires": "7.33.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.cucumber",
+          "module": "cucumber-java"
+        },
+        {
+          "group": "io.cucumber",
+          "module": "cucumber-testng"
+        },
+        {
+          "group": "io.cucumber",
+          "module": "cucumber-picocontainer"
+        },
+        {
+          "group": "org.testng",
+          "module": "testng",
+          "version": {
+            "requires": "7.12.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.26.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.5.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20250517"
+          }
+        },
+        {
+          "group": "org.hamcrest",
+          "module": "hamcrest",
+          "version": {
+            "requires": "3.0"
+          }
+        },
+        {
+          "group": "org.apache.poi",
+          "module": "poi-ooxml",
+          "version": {
+            "requires": "5.4.1"
+          }
+        },
+        {
+          "group": "org.apache.pdfbox",
+          "module": "pdfbox",
+          "version": {
+            "requires": "3.0.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cf-common-utils-3.0.0-SNAPSHOT.jar",
+          "url": "cf-common-utils-3.0.0-SNAPSHOT.jar",
+          "size": 34401,
+          "sha512": "4b8a20b9c1a3e4a384db1ee2f9639da7f261d92144b9d063c46114a48d4f7d44e220491e2ce802674bc969f8346110595aa49669a2063350272abdef486e040f",
+          "sha256": "56b9a03c311581c5effaf17879af50dfcbcaa7ed100cf28b180bf9ab7398b530",
+          "sha1": "d84634331234c4608b8455aface83cb68044f34c",
+          "md5": "ca0d3e140d8d2a58327758c15f07d26c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.cucumber",
+          "module": "cucumber-bom",
+          "version": {
+            "requires": "7.33.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "io.cucumber",
+          "module": "cucumber-java"
+        },
+        {
+          "group": "io.cucumber",
+          "module": "cucumber-testng"
+        },
+        {
+          "group": "io.cucumber",
+          "module": "cucumber-picocontainer"
+        },
+        {
+          "group": "org.testng",
+          "module": "testng",
+          "version": {
+            "requires": "7.12.0"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-api",
+          "version": {
+            "requires": "2.26.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.18.0"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.5.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.1"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20250517"
+          }
+        },
+        {
+          "group": "org.hamcrest",
+          "module": "hamcrest",
+          "version": {
+            "requires": "3.0"
+          }
+        },
+        {
+          "group": "org.apache.poi",
+          "module": "poi-ooxml",
+          "version": {
+            "requires": "5.4.1"
+          }
+        },
+        {
+          "group": "org.apache.pdfbox",
+          "module": "pdfbox",
+          "version": {
+            "requires": "3.0.5"
+          }
+        },
+        {
+          "group": "org.apache.logging.log4j",
+          "module": "log4j-core",
+          "version": {
+            "requires": "2.26.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cf-common-utils-3.0.0-SNAPSHOT.jar",
+          "url": "cf-common-utils-3.0.0-SNAPSHOT.jar",
+          "size": 34401,
+          "sha512": "4b8a20b9c1a3e4a384db1ee2f9639da7f261d92144b9d063c46114a48d4f7d44e220491e2ce802674bc969f8346110595aa49669a2063350272abdef486e040f",
+          "sha256": "56b9a03c311581c5effaf17879af50dfcbcaa7ed100cf28b180bf9ab7398b530",
+          "sha1": "d84634331234c4608b8455aface83cb68044f34c",
+          "md5": "ca0d3e140d8d2a58327758c15f07d26c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cf-common-utils-3.0.0-SNAPSHOT-sources.jar",
+          "url": "cf-common-utils-3.0.0-SNAPSHOT-sources.jar",
+          "size": 14823,
+          "sha512": "c885c8ea3082d9e5c5f7f68cff2f8d3cc85eca04bec02a6afe11a911a34fa520381c49d156d29a9f405c0b85c53fecd57f42226b47e27ddd0bc102d0174c02f5",
+          "sha256": "288019d6142f8913468d3c252cd5d703a01d8713e435f46dec33487800e7970d",
+          "sha1": "6e73da7c75b27cb1e9fefdfa5c5ff1fb82b629ab",
+          "md5": "fd1420fa997c3b81a6b92189fa1e8e2e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cf-common-utils-3.0.0-SNAPSHOT-javadoc.jar",
+          "url": "cf-common-utils-3.0.0-SNAPSHOT-javadoc.jar",
+          "size": 4193100,
+          "sha512": "d1c2d779d8cb40d6e2f2ad3237c062ea5f5f49b02cfcc2c4b28c4c33ac5fbe68cffeed0cfa979bcd1a9f548375b1e87f41166730141fcea6401f0ffa1ed7cec1",
+          "sha256": "85af3ed111e3c5839b56e499530e48d122edfe5f95a7aa48ba8495d12e54ccf8",
+          "sha1": "cbdbbd427c31ee209e3bf892afa10d492617ac41",
+          "md5": "2bf6fa11f8bc77c293743659f3a9e208"
+        }
+      ]
+    }
+  ]
+}

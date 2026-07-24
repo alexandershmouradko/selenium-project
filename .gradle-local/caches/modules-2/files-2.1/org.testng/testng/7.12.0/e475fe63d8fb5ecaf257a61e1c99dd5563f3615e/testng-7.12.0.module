@@ -1,0 +1,256 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.testng",
+    "module": "testng",
+    "version": "7.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.11.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jcommander",
+          "module": "jcommander",
+          "version": {
+            "requires": "1.83"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testng-7.12.0.jar",
+          "url": "testng-7.12.0.jar",
+          "size": 992871,
+          "sha512": "3a4d587c6de2fb110d219c94ba2b139f5a041715d27cd5d5bba104785205d42f475a076c3a623f4f7f66553a6ff474fa4b7c95b28aea554a1387ba2dbabebc68",
+          "sha256": "5147e65e0bf0d0f9c7f18a4b2b182d3e4efb7391195e130a64ca9f755e0a6d33",
+          "sha1": "55b39526598d8eb2e0e75bffbbd4b683adb85dcc",
+          "md5": "917944995c1bd38ad755df540802314c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        },
+        {
+          "group": "org.jcommander",
+          "module": "jcommander",
+          "version": {
+            "requires": "1.83"
+          }
+        },
+        {
+          "group": "org.webjars",
+          "module": "jquery",
+          "version": {
+            "requires": "3.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testng-7.12.0.jar",
+          "url": "testng-7.12.0.jar",
+          "size": 992871,
+          "sha512": "3a4d587c6de2fb110d219c94ba2b139f5a041715d27cd5d5bba104785205d42f475a076c3a623f4f7f66553a6ff474fa4b7c95b28aea554a1387ba2dbabebc68",
+          "sha256": "5147e65e0bf0d0f9c7f18a4b2b182d3e4efb7391195e130a64ca9f755e0a6d33",
+          "sha1": "55b39526598d8eb2e0e75bffbbd4b683adb85dcc",
+          "md5": "917944995c1bd38ad755df540802314c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "testng-7.12.0-javadoc.jar",
+          "url": "testng-7.12.0-javadoc.jar",
+          "size": 880860,
+          "sha512": "367322210b2243bcdc0e38901c6e27cce7ddd6b260afdd6eae88446bfccd85b9f9b16be48d37fe31745812517a8526f7b58f334af8f47b7ce4fae0e5af47e0ea",
+          "sha256": "7e0d56e2d77a53af594a3af05c925c359a5d1875b179a63bb4f6242b822eec2d",
+          "sha1": "4720ea19e3b09e520c0fa9a52dd1138c7aa2901f",
+          "md5": "c1a53eab9822f33d7354a0cd46fba357"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "testng-7.12.0-sources.jar",
+          "url": "testng-7.12.0-sources.jar",
+          "size": 485869,
+          "sha512": "4ff8d9a89bd5b00f5c12ce4cbe0808a2745f045e8c79bb25cf676ab42db48d4464f3c7a128acfa4afbfcf3835bbfbb761510f6904049e0b7a7602ccf43bf265b",
+          "sha256": "5a60b861fc5f28e927ca0a1e904f3fd2894dbfb340695e4e1a61a338c5e50d37",
+          "sha1": "1ba30ea282b1e821a5f1b9f3bb3c078d13ecbd12",
+          "md5": "2123c5072d7466a0c9434008e9914092"
+        }
+      ]
+    },
+    {
+      "name": "guiceApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.inject",
+          "module": "guice-bom",
+          "version": {
+            "requires": "5.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "5.1.0"
+          }
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.testng",
+          "name": "testng-guice",
+          "version": "7.12.0"
+        }
+      ]
+    },
+    {
+      "name": "guiceRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.inject",
+          "module": "guice-bom",
+          "version": {
+            "requires": "5.1.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "5.1.0"
+          }
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.testng",
+          "name": "testng-guice",
+          "version": "7.12.0"
+        }
+      ]
+    },
+    {
+      "name": "yamlApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "capabilities": [
+        {
+          "group": "org.testng",
+          "name": "testng-yaml",
+          "version": "7.12.0"
+        }
+      ]
+    },
+    {
+      "name": "yamlRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.2"
+          }
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.testng",
+          "name": "testng-yaml",
+          "version": "7.12.0"
+        }
+      ]
+    }
+  ]
+}

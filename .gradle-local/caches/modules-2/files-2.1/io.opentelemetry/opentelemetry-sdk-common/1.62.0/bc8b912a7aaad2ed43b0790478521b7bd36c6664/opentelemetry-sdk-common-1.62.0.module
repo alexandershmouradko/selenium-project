@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.opentelemetry",
+    "module": "opentelemetry-sdk-common",
+    "version": "1.62.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.62.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.62.0.jar",
+          "url": "opentelemetry-sdk-common-1.62.0.jar",
+          "size": 85065,
+          "sha512": "f4149565c9846adc77326096cc4c39b60ea2b5980292c03dc8034d5f65f2a5b054c00caab8c77a088b15c0b7d5c8633e314ac66fdc27ffbd67f0ad254e6f184b",
+          "sha256": "bf9d13df9a50e49a5db664ba8ebfad79f73f03219d2ac6f6709d432f6896eba0",
+          "sha1": "b6742282daab8e13598b78a83ddfa54f10b5752b",
+          "md5": "30f565b2736f947c9b67530227fbf249"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.opentelemetry",
+          "module": "opentelemetry-api",
+          "version": {
+            "requires": "1.62.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.62.0.jar",
+          "url": "opentelemetry-sdk-common-1.62.0.jar",
+          "size": 85065,
+          "sha512": "f4149565c9846adc77326096cc4c39b60ea2b5980292c03dc8034d5f65f2a5b054c00caab8c77a088b15c0b7d5c8633e314ac66fdc27ffbd67f0ad254e6f184b",
+          "sha256": "bf9d13df9a50e49a5db664ba8ebfad79f73f03219d2ac6f6709d432f6896eba0",
+          "sha1": "b6742282daab8e13598b78a83ddfa54f10b5752b",
+          "md5": "30f565b2736f947c9b67530227fbf249"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.62.0-javadoc.jar",
+          "url": "opentelemetry-sdk-common-1.62.0-javadoc.jar",
+          "size": 182350,
+          "sha512": "2618c5d3b1975678b847f62b340f558849af32d8751c63b39121f0e0b4edd81b04f2b057f8833b0e9404a60894c1ceed3313ef06c6cc6001784d81628e30cbfd",
+          "sha256": "ca68cced65d20b7e31a5513ce9d3502ff675ac512dcd8848f220b6e3d1246960",
+          "sha1": "f6055dab8c5878c369f4f5da7c72b9cf81473bfd",
+          "md5": "c47ce025729dcfdccb24dd18610244c4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "opentelemetry-sdk-common-1.62.0-sources.jar",
+          "url": "opentelemetry-sdk-common-1.62.0-sources.jar",
+          "size": 54688,
+          "sha512": "9a3953adcae5f725f97398263c1915f02815bb8d1b31acc905a58effae640d37f37ba14b85791bb7d72ee69c0076b25ec26c52b0416a086dfb532714545a5622",
+          "sha256": "b62f0390c5f89e4961b88bd8955fa919ea65ddf3972152a0312261f910d302fc",
+          "sha1": "9d533206c888d56ca6652dc6f4a36c6d31fb2238",
+          "md5": "d2668604da9988f9ed2743a5aed4cf61"
+        }
+      ]
+    }
+  ]
+}

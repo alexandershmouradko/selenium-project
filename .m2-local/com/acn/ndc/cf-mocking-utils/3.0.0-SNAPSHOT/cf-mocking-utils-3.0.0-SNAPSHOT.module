@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.acn.ndc",
+    "module": "cf-mocking-utils",
+    "version": "3.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.acn.ndc",
+          "module": "cf-common-utils",
+          "version": {
+            "requires": "3.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.wiremock",
+          "module": "wiremock-standalone",
+          "version": {
+            "requires": "3.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cf-mocking-utils-3.0.0-SNAPSHOT.jar",
+          "url": "cf-mocking-utils-3.0.0-SNAPSHOT.jar",
+          "size": 4405,
+          "sha512": "3f46f2d284d0d905b1f82274e3a83c9ef6e4a45358252356df805a9999e82cb93619c588f96c5a025a93dccaf560c24c9507b4f06544096cac9751ec9ee22cbc",
+          "sha256": "1a6fb6e76a0e04b97f8007e7358e8ba9b52724444e992a42da0bec40eac96e0c",
+          "sha1": "66a67644ef953ff0d528a08054f3c128e80a3b8a",
+          "md5": "789ad7e31c46d7948887b5995601ec72"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.acn.ndc",
+          "module": "cf-common-utils",
+          "version": {
+            "requires": "3.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.wiremock",
+          "module": "wiremock-standalone",
+          "version": {
+            "requires": "3.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cf-mocking-utils-3.0.0-SNAPSHOT.jar",
+          "url": "cf-mocking-utils-3.0.0-SNAPSHOT.jar",
+          "size": 4405,
+          "sha512": "3f46f2d284d0d905b1f82274e3a83c9ef6e4a45358252356df805a9999e82cb93619c588f96c5a025a93dccaf560c24c9507b4f06544096cac9751ec9ee22cbc",
+          "sha256": "1a6fb6e76a0e04b97f8007e7358e8ba9b52724444e992a42da0bec40eac96e0c",
+          "sha1": "66a67644ef953ff0d528a08054f3c128e80a3b8a",
+          "md5": "789ad7e31c46d7948887b5995601ec72"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cf-mocking-utils-3.0.0-SNAPSHOT-sources.jar",
+          "url": "cf-mocking-utils-3.0.0-SNAPSHOT-sources.jar",
+          "size": 2897,
+          "sha512": "36ba7a898c24fc4c643121408ce43d12fcdb957b0ba64eda2eb15d9be3d03c596948d6ad9037503187037e00657b895e2006997a6537d247e5145ecd35baa7d2",
+          "sha256": "ac8857928a0dde9616bde81e2b2a2c8f70d260f85627baae4fb0b14119a89f4e",
+          "sha1": "ef17ecd3ac2a06791d32704423a2128e34cb40ba",
+          "md5": "9bb562a7ccb346ed7e1c0e2545a9133c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cf-mocking-utils-3.0.0-SNAPSHOT-javadoc.jar",
+          "url": "cf-mocking-utils-3.0.0-SNAPSHOT-javadoc.jar",
+          "size": 4150820,
+          "sha512": "abe41ca1136dee9ae7eb4adb8e075261b3d7032a954f1db066848ffedeee6aaa5f89e367f23e48aec8a123755da09d60e9d3b5a1e33d24f70ed84dcf79c5a296",
+          "sha256": "ca3ec831ba4aaf9a3e9092efdd72d41e45085f873a5cdd2185ea2312a6382dbd",
+          "sha1": "ef8412ccd455ab440e85016506b6e160d2cfb0df",
+          "md5": "9e2e49205000d46b86864d99d5553abc"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.acn.ndc",
+    "module": "cf-selenium-utils",
+    "version": "3.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.acn.ndc",
+          "module": "cf-common-utils",
+          "version": {
+            "requires": "3.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.44.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.20.0"
+          }
+        },
+        {
+          "group": "ru.yandex.qatools.ashot",
+          "module": "ashot",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "com.deque.html.axe-core",
+          "module": "selenium",
+          "version": {
+            "requires": "4.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cf-selenium-utils-3.0.0-SNAPSHOT.jar",
+          "url": "cf-selenium-utils-3.0.0-SNAPSHOT.jar",
+          "size": 66358,
+          "sha512": "c9b6330418e977b4de4e0442ebe684f751ef5b3229554753e1a6bdb561f025778d1f6a42fee554cfa9b5717c63146fdc03745973d0df38304ebe89f14b581c0d",
+          "sha256": "859e5c29032b01483f496060668599acd1e81a2cbf9a3dea4741f4605303c8f6",
+          "sha1": "ccd50fae677a74583d0e30ebe98f1da11131d66a",
+          "md5": "957d1cd06b05328bb663975fc34c7279"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.acn.ndc",
+          "module": "cf-common-utils",
+          "version": {
+            "requires": "3.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.seleniumhq.selenium",
+          "module": "selenium-java",
+          "version": {
+            "requires": "4.44.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.20.0"
+          }
+        },
+        {
+          "group": "ru.yandex.qatools.ashot",
+          "module": "ashot",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "com.deque.html.axe-core",
+          "module": "selenium",
+          "version": {
+            "requires": "4.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cf-selenium-utils-3.0.0-SNAPSHOT.jar",
+          "url": "cf-selenium-utils-3.0.0-SNAPSHOT.jar",
+          "size": 66358,
+          "sha512": "c9b6330418e977b4de4e0442ebe684f751ef5b3229554753e1a6bdb561f025778d1f6a42fee554cfa9b5717c63146fdc03745973d0df38304ebe89f14b581c0d",
+          "sha256": "859e5c29032b01483f496060668599acd1e81a2cbf9a3dea4741f4605303c8f6",
+          "sha1": "ccd50fae677a74583d0e30ebe98f1da11131d66a",
+          "md5": "957d1cd06b05328bb663975fc34c7279"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cf-selenium-utils-3.0.0-SNAPSHOT-sources.jar",
+          "url": "cf-selenium-utils-3.0.0-SNAPSHOT-sources.jar",
+          "size": 30178,
+          "sha512": "5387ac4bbd127f10606d92082257d497fd0ecdbf5e1bc42ea6b748a48961402cf174d47646b7d6a4f65bad1143d9ed9987bcaf9ff27d87bc84d09160dbea0904",
+          "sha256": "0a7ba4248ac69e70b8aa499915d266eed5f75ccbb809745b1a84ec4cd6a4007e",
+          "sha1": "e30fb91c1d0b518aa6bb725cb2348e3514222492",
+          "md5": "58344ad382b99bd1e4b8b35d3340040e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cf-selenium-utils-3.0.0-SNAPSHOT-javadoc.jar",
+          "url": "cf-selenium-utils-3.0.0-SNAPSHOT-javadoc.jar",
+          "size": 4260825,
+          "sha512": "4eb95b01dcaeac1367a9bcf0efbc3bb63a1d54ca0b47904150aa3ad68a84810ba407e368e028fad141b9ad5957149eb1d1ec4effdcb7100aec4c639db88ecaa7",
+          "sha256": "e5a2291e3f952e63eaf526515f811a95f1add26619a8290230e70b06a7fd9e1f",
+          "sha1": "083a6210d86becae5be0e03930fb97fa2b8c8146",
+          "md5": "a8292ab18d2ee65bebfaf15c46f42a40"
+        }
+      ]
+    }
+  ]
+}

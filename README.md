@@ -14,3 +14,9 @@
 * git add .
 * git commit -m "<paste-commit-message-here>"
 * git push# Cukes Automation Framework 3
+
+## Project cleanup
+
+* ./gradlew --stop
+* docker compose stop
+* open codespaces -> Stop Current Codespace
