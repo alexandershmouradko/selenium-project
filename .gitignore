@@ -1,0 +1,16 @@
+.gradle/
+**/build/
+**/.gradle/
+.idea/
+*.iml
+*.log
+out/
+.DS_Store
+
+# Local credentials and overrides
+local.properties
+*.secrets.properties
+.env
+
+# Generated distribution (created by scripts/collect-distribution.sh)
+dist/

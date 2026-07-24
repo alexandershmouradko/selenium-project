@@ -1,0 +1,2 @@
+rootProject.name = 'cucumber-framework-modernized'
+include 'cf-common-utils', 'cf-api-utils', 'cf-selenium-utils', 'cf-database-utils', 'cf-mocking-utils', 'cf-jira-utils', 'cf-har-utils'

@@ -1,0 +1,17 @@
+/bin
+/build
+
+#Gradle
+/.gradle
+ 
+#Eclipse
+/.settings
+.classpath
+.project
+
+#Intellij
+*.iml
+/.idea
+ 
+#Mac OS
+*.DS_Store

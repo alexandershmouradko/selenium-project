@@ -1,0 +1,5 @@
+dependencies {
+    api project(':cf-common-utils')
+    api project(':cf-selenium-utils')
+    api "org.seleniumhq.selenium:selenium-java:${versions.selenium}"
+}

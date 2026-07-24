@@ -1,0 +1,4 @@
+cf-common-utils: jar top-level classes=13, source files=13, missing source=0, source-only=0
+cf-selenium-utils: jar top-level classes=24, source files=26, missing source=0, source-only=2
+  SOURCE_ONLY uk/ndc/csa/utilities/selenium/driver/factory/RemoteDriverHelper
+  SOURCE_ONLY uk/ndc/csa/utilities/selenium/driver/manager/PerfectoDriverManager

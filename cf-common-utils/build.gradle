@@ -1,0 +1,18 @@
+dependencies {
+    api platform("io.cucumber:cucumber-bom:${versions.cucumber}")
+    api 'io.cucumber:cucumber-java'
+    api 'io.cucumber:cucumber-testng'
+    api 'io.cucumber:cucumber-picocontainer'
+    api "org.testng:testng:${versions.testng}"
+    api "org.apache.logging.log4j:log4j-api:${versions.log4j}"
+    runtimeOnly "org.apache.logging.log4j:log4j-core:${versions.log4j}"
+    api "org.apache.commons:commons-text:${versions.commonsText}"
+    api "org.apache.commons:commons-lang3:${versions.commonsLang3}"
+    api "org.apache.commons:commons-collections4:${versions.commonsColl4}"
+    api "com.google.code.gson:gson:${versions.gson}"
+    api "org.json:json:${versions.json}"
+    api "org.hamcrest:hamcrest:${versions.hamcrest}"
+    api "org.apache.poi:poi-ooxml:${versions.poi}"
+    api "org.apache.pdfbox:pdfbox:${versions.pdfbox}"
+
+}

@@ -1,0 +1,7 @@
+dependencies {
+    api project(':cf-common-utils')
+    api "io.rest-assured:rest-assured:${versions.restAssured}"
+    api "io.rest-assured:json-schema-validator:${versions.restAssured}"
+    api "com.atlassian.oai:openapi-request-validator-restassured:${versions.openApiValidator}"
+    api "org.skyscreamer:jsonassert:1.5.3"
+}

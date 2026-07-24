@@ -1,0 +1,93 @@
+plugins {
+    id 'base'
+}
+
+ext.versions = [
+        java           : 17,
+        cucumber       : '7.33.0',
+        testng          : '7.12.0',
+        selenium        : '4.44.0',
+        restAssured     : '5.5.7',
+        openApiValidator: '3.0.0',
+        wiremock        : '3.13.2',
+        log4j           : '2.26.0',
+        commonsText     : '1.13.1',
+        commonsLang3    : '3.18.0',
+        commonsColl4    : '4.5.0',
+        commonsIo       : '2.20.0',
+        gson            : '2.13.1',
+        json            : '20250517',
+        hamcrest        : '3.0',
+        poi             : '5.4.1',
+        pdfbox          : '3.0.5',
+        dbutils         : '1.8.1',
+        mongodb         : '5.5.1',
+        postgresql      : '42.7.7',
+        mssql           : '12.10.2.jre11',
+        ashot           : '1.5.4',
+        axe             : '4.11.0'
+]
+
+allprojects {
+    group = 'com.acn.ndc'
+    version = providers.gradleProperty('frameworkVersion').getOrElse('3.0.0-SNAPSHOT')
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    apply plugin: 'java-library'
+    apply plugin: 'maven-publish'
+
+    java {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+        withSourcesJar()
+        withJavadocJar()
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+        options.release = versions.java as int
+        options.compilerArgs += ['-Xlint:deprecation', '-Xlint:unchecked']
+    }
+
+    tasks.withType(Test).configureEach {
+        useTestNG()
+        systemProperties(System.properties as Map<String, ?>)
+        testLogging {
+            events 'passed', 'skipped', 'failed'
+            exceptionFormat = 'full'
+        }
+    }
+
+    publishing {
+        publications {
+            mavenJava(MavenPublication) {
+                from components.java
+                pom {
+                    name = project.name
+                    description = 'Modernized Cucumber TestNG automation framework module'
+                }
+            }
+        }
+        repositories {
+            maven {
+                name = 'internal'
+                url = uri(providers.gradleProperty('repositoryUrl').getOrElse("${rootProject.layout.buildDirectory.get()}/repo"))
+                credentials {
+                    username = providers.gradleProperty('repositoryUser').orElse(providers.environmentVariable('NEXUS_USER')).getOrElse('')
+                    password = providers.gradleProperty('repositoryPassword').orElse(providers.environmentVariable('NEXUS_PASSWORD')).getOrElse('')
+                }
+            }
+        }
+    }
+}
+
+tasks.register('frameworkCheck') {
+    group = 'verification'
+    description = 'Compiles, tests and validates all framework modules.'
+    dependsOn subprojects.collect { it.tasks.named('check') }
+}

@@ -1,0 +1,7 @@
+dependencies {
+    api project(':cf-common-utils')
+    api "org.seleniumhq.selenium:selenium-java:${versions.selenium}"
+    api "commons-io:commons-io:${versions.commonsIo}"
+    api "ru.yandex.qatools.ashot:ashot:${versions.ashot}"
+    api "com.deque.html.axe-core:selenium:${versions.axe}"
+}

@@ -1,0 +1,19 @@
+Archive-under-test: TestAutomationFW-cukes-modernized-3.0.0.zip
+
+The ZIP was extracted into a clean directory without build or Gradle cache folders.
+
+Extracted framework verification:
+  gradle frameworkCheck
+  BUILD SUCCESSFUL
+
+Extracted published-artifact verification:
+  gradle publishToMavenLocal
+  BUILD SUCCESSFUL
+
+Extracted standalone consumer verification:
+  gradle -p examples/consumer-smoke clean test
+  BUILD SUCCESSFUL
+
+ZIP integrity verification:
+  unzip -t
+  No errors detected in compressed data.

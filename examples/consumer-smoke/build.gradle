@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group = 'example'
+version = '1.0.0'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+dependencies {
+    testImplementation 'com.acn.ndc:cf-common-utils:3.0.0-SNAPSHOT'
+    testImplementation 'com.acn.ndc:cf-api-utils:3.0.0-SNAPSHOT'
+    testImplementation 'com.acn.ndc:cf-selenium-utils:3.0.0-SNAPSHOT'
+}
+
+test {
+    useTestNG()
+}

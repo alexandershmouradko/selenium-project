@@ -1,0 +1,24 @@
+cf-api-utils/build/test-results/test/TEST-uk.ndc.csa.utilities.restapi.RestAssuredHelperSmokeTest.xml: tests=2, failures=0, errors=0, skipped=0
+  PASS uk.ndc.csa.utilities.restapi.RestAssuredHelperSmokeTest.invokesLocalApiUsingFrameworkHelper
+  PASS uk.ndc.csa.utilities.restapi.RestAssuredHelperSmokeTest.rejectsUnsupportedHttpMethod
+cf-common-utils/build/test-results/test/TEST-uk.ndc.csa.utilities.common.FrameworkPropertiesTest.xml: tests=2, failures=0, errors=0, skipped=0
+  PASS uk.ndc.csa.utilities.common.FrameworkPropertiesTest.loadsTypedValuesAndEscapedLists
+  PASS uk.ndc.csa.utilities.common.FrameworkPropertiesTest.rejectsInvalidInteger
+cf-common-utils/build/test-results/test/TEST-uk.ndc.csa.utilities.common.PropertyTest.xml: tests=2, failures=0, errors=0, skipped=0
+  PASS uk.ndc.csa.utilities.common.PropertyTest.requireVariableRejectsMissingValue
+  PASS uk.ndc.csa.utilities.common.PropertyTest.systemPropertyHasPriority
+cf-common-utils/build/test-results/test/TEST-uk.ndc.csa.utilities.common.TextReportTest.xml: tests=2, failures=0, errors=0, skipped=0
+  PASS uk.ndc.csa.utilities.common.TextReportTest.reportsMissingJsonWithoutThrowing
+  PASS uk.ndc.csa.utilities.common.TextReportTest.summarizesPassedAndFailedScenariosAndCanBeRegenerated
+cf-common-utils/build/test-results/test/TEST-uk.ndc.csa.utilities.common.ThreadContextTest.xml: tests=3, failures=0, errors=0, skipped=0
+  PASS uk.ndc.csa.utilities.common.ThreadContextTest.browserCombinationIsDefensivelyCopied
+  PASS uk.ndc.csa.utilities.common.ThreadContextTest.clearCreatesFreshContext
+  PASS uk.ndc.csa.utilities.common.ThreadContextTest.contextIsIsolatedBetweenThreads
+cf-mocking-utils/build/test-results/test/TEST-uk.ndc.csa.utilities.mockservice.WireMockHelperSmokeTest.xml: tests=1, failures=0, errors=0, skipped=0
+  PASS uk.ndc.csa.utilities.mockservice.WireMockHelperSmokeTest.startsRegistersServesAndStopsOnDynamicPort
+cf-selenium-utils/build/test-results/test/TEST-uk.ndc.csa.utilities.selenium.driver.factory.CapabilitiesTest.xml: tests=3, failures=0, errors=0, skipped=0
+  PASS uk.ndc.csa.utilities.selenium.driver.factory.CapabilitiesTest.buildsW3cCapabilitiesFromLegacyBrowserAliases
+  PASS uk.ndc.csa.utilities.selenium.driver.factory.CapabilitiesTest.mapsBrowserStackLegacyOsAliasesOutsideStandardCapabilities
+  PASS uk.ndc.csa.utilities.selenium.driver.factory.CapabilitiesTest.rejectsUnnamespacedCustomCapabilities
+
+TOTAL tests=15, failures=0, errors=0, skipped=0
